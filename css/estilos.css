@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, sans-serif;
+}
+
+header, footer {
+    background-color: #e86767;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    padding: 10px 0;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #5d2020;
+}
+
+/* Estilo de la tarjeta */
+.tarjeta {
+    width: 550px;
+    height: 300px;
+    border: 2px solid #fcfbfb;
+    margin: 20px auto;
+    padding: 20px;
+    background: url('../imagenes/tarjetaOso.png') no-repeat center center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+
+.tarjeta h2 {
+    font-size: 50px;
+    margin-bottom: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.tarjeta p {
+    font-size: 30px;
+    font-style: italic;
+}
